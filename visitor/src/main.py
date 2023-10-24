@@ -1,12 +1,21 @@
+# Prueba tecnica de 160K
+
+# Tengo un imput en cadena de texto
+# y un array de longitud indeterminada inicialmente inicializado a 0
+# Si leo un 1 me muevo a la derecha
+# Si leo un 2 me muevo a la izauierda
+# Si leo un 3 sumo 1 a mi posicion actual
+# Si leo un 4 resto 1 a mi posicion actual
+# Si leo un (  y mi valor actual en el array es 0 me muevo a la derecha hasta mi )
+# Si leo un )  y mi valor actual en el array no es 0 me muevo a la izquierda hasta mi (
+# Si leo un 5  imprimo el valor actual del array en ASCII
+
+# Ejemplo INPUT :
+# INPUT = "4(4444444132)1454(41333332)13353333333553335"
+# devuelve "HELLO"
 
 
-# -> derecha - 1
-# <- izquierda - 2
-# ^ +1 - 3
-# | -1 - 4
-# ( if 0 jumpsz )
-# ) if not 0 jumps (
-# x display ASCII - 5
+
 INPUT = "4(4444444132)1454(41333332)13353333333553335"
 
 VALUES = [0]
